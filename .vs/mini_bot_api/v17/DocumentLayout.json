@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Steven\\OneDrive\\Documents\\GitHub\\mini_bot_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CE2705-C5B7-43E2-850D-71E00F090D3E}|mini_bot_api.ApiService\\mini_bot_api.ApiService.csproj|c:\\users\\steven\\onedrive\\documents\\github\\mini_bot_api\\mini_bot_api.apiservice\\model\\minibot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CE2705-C5B7-43E2-850D-71E00F090D3E}|mini_bot_api.ApiService\\mini_bot_api.ApiService.csproj|solutionrelative:mini_bot_api.apiservice\\model\\minibot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CE2705-C5B7-43E2-850D-71E00F090D3E}|mini_bot_api.ApiService\\mini_bot_api.ApiService.csproj|c:\\users\\steven\\onedrive\\documents\\github\\mini_bot_api\\mini_bot_api.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4CE2705-C5B7-43E2-850D-71E00F090D3E}|mini_bot_api.ApiService\\mini_bot_api.ApiService.csproj|solutionrelative:mini_bot_api.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4CE2705-C5B7-43E2-850D-71E00F090D3E}|mini_bot_api.ApiService\\mini_bot_api.ApiService.csproj|c:\\users\\steven\\onedrive\\documents\\github\\mini_bot_api\\mini_bot_api.apiservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4CE2705-C5B7-43E2-850D-71E00F090D3E}|mini_bot_api.ApiService\\mini_bot_api.ApiService.csproj|solutionrelative:mini_bot_api.apiservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Steven\\OneDrive\\Documents\\GitHub\\mini_bot_api\\mini_bot_api.ApiService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "mini_bot_api.ApiService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Steven\\OneDrive\\Documents\\GitHub\\mini_bot_api\\mini_bot_api.ApiService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "mini_bot_api.ApiService\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-13T20:26:37.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\OneDrive\\Documents\\GitHub\\mini_bot_api\\mini_bot_api.ApiService\\Program.cs",
+              "RelativeDocumentMoniker": "mini_bot_api.ApiService\\Program.cs",
+              "ToolTip": "C:\\Users\\Steven\\OneDrive\\Documents\\GitHub\\mini_bot_api\\mini_bot_api.ApiService\\Program.cs",
+              "RelativeToolTip": "mini_bot_api.ApiService\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T15:11:53.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MiniBot.cs",
+              "DocumentMoniker": "C:\\Users\\Steven\\OneDrive\\Documents\\GitHub\\mini_bot_api\\mini_bot_api.ApiService\\Model\\MiniBot.cs",
+              "RelativeDocumentMoniker": "mini_bot_api.ApiService\\Model\\MiniBot.cs",
+              "ToolTip": "C:\\Users\\Steven\\OneDrive\\Documents\\GitHub\\mini_bot_api\\mini_bot_api.ApiService\\Model\\MiniBot.cs",
+              "RelativeToolTip": "mini_bot_api.ApiService\\Model\\MiniBot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:09:32.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VyCLygWoVyB+ne0CJJ2KisYBDE+LwtyLtr95XVufLbM=",
+  "Source": "mini_bot_api.ApiService",
+  "BasePath": "_content/mini_bot_api.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
