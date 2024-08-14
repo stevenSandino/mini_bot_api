@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\mini_bot_api.ApiService.props" />
-</Project>
