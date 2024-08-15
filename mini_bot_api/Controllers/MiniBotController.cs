@@ -1,29 +1,33 @@
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using mini_bot_api;
+using mini_bot_api.Interface;
+using mini_bot_api.Model;
 
 namespace mini_bot_api.Controllers
 {
-    [ApiController]
     [Route("[controller]")]
+    [ApiController]
     public class MiniBotController : ControllerBase
     {
-
-        private readonly ILogger<MiniBotController> _logger;
-
-        public MiniBotController(ILogger<MiniBotController> logger)
-        {
-            _logger = logger;
-        }
         [HttpGet("responce/{question}")]
-        public ActionResult<MiniBot> Get(string question)
+        public ActionResult<MiniBot> Get([FromServices] IMiniBotService service,  string question)
         {
-            var responce = new ResponceRecord(question, "");
-            return Ok(responce);
+            try
+            {
+                Answer q = new Answer("", question);
+
+                Answer answer = service.FindByQuestion(q);
+                return Ok(answer);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
+            }
+            
         }
 
         [HttpGet("responce/")]
-        public ActionResult<MiniBot> Get()
+        public ActionResult<MiniBot> Get([FromServices] IMiniBotService service)
         {
             var responce = new ResponceRecord("", "");
             return Ok(responce);

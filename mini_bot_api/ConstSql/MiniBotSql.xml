@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<commands>
+	<select>
+		SELECT * FROM "Answer"
+	</select>
+	<selectByQuestion>
+		select * from "Answer" WHERE "Question" like :replace
+	</selectByQuestion>
+	<insert>
+		INSERT INTO "Answer"("Question", "Answer") VALUES (:Question, :Answer)
+	</insert>
+</commands>

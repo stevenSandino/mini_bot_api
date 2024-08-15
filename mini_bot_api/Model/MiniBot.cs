@@ -1,4 +1,4 @@
-namespace mini_bot_api
+namespace mini_bot_api.Model
 {
     public class MiniBot
     {
