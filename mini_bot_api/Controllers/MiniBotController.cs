@@ -15,8 +15,11 @@ namespace mini_bot_api.Controllers
             try
             {
                 Answer q = new Answer("", question);
+                
 
                 Answer answer = service.FindByQuestion(q);
+                if (answer == null)
+                    answer = new Answer("I dont have an aswer for that. sorry", question);
                 return Ok(answer);
             }
             catch (Exception ex)
